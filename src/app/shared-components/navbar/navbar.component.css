@@ -56,6 +56,87 @@ color: white;
     
 }
 
+.services__submenu{
+    padding: 2% 0% 2% 7%;
+} 
+.products__submenu{
+    padding: 2% 0% 2% 7%;
+}
+.about__submenu{
+    padding: 2% 0% 2% 7%;
+}
+.about__submenu ul, li{
+    padding: 0;
+    margin: 0;
+}
+.products__submenu ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+.services__submenu ul,li{
+    padding: 0;
+    margin: 0;
+}
+.services__block1{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #DADADA;
+    padding-left:3%;
+}
+.services__block2{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #DADADA;
+    padding-left:7%;
+}
+.services__block3{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #DADADA;
+    padding-left:3%;
+}
+.services__block4{
+    padding-left:3%;
+}
+.products__block1{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #DADADA;
+    padding-left:3%;
+
+}
+.products__block1{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #DADADA;
+    padding-left:3%;
+
+}.products__block2{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #DADADA;
+    padding-left:3%;
+
+}
+.products__block3{
+     padding-left:3%;
+
+}
+.about__block1{
+    padding-right:3%;
+}
+.about__block2{
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #DADADA;
+    padding-left:10%;
+
+}
+.about__block3{
+     padding-left:3%;
+
+}
 
     
 :host ::ng-deep .mat-button-wrapper{

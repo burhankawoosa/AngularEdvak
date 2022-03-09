@@ -1,0 +1,39 @@
+.footer{
+    background-color:#F8F7F7 ;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #468CCC;
+    padding: 2% 6% 0% 6%;
+}
+.block1 hr{
+    width: 50%;
+     margin-top: -10px; 
+     margin-bottom: 10px;
+}
+.block2 hr{
+    width: 50%;
+     margin-top: -10px; 
+     margin-bottom: 10px;
+}
+.block3 hr{
+    width: 50%;
+     margin-top: -10px; 
+     margin-bottom: 10px;
+}
+.block4 hr{
+    width: 50%;
+     margin-top: -10px; 
+     margin-bottom: 10px;
+}
+.block2{
+    padding-left: 10%;
+}
+.socialmedia__inner ul, li{
+    display: flex;
+   margin-right: 1rem;
+}
+
+.copyright{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

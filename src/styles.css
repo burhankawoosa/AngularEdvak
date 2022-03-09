@@ -4,11 +4,26 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    font: 400 14px/20px "EdOne","EdCL",Helvetica,Arial,sans-serif;
     text-decoration: none;
 }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; }
 
 :root{
     --primary-color:#0274be;
    
+}
+@font-face {
+    font-family: EdCl;
+    src: url('src/assets/fonts/IntelClear_Lt.ttf') format('ttf');
+    font-size: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: EdOne;
+    src: url('assets/fonts/intelone-display-light.ttf') format('ttf');
+    font-size: normal;
+    font-weight: normal;
+    font-style: normal;
 }

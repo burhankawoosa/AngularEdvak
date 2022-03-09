@@ -7,31 +7,117 @@
         <div class="menu">
             <ul>
                 <li>
-                    <button mat-button [matMenuTriggerFor]="belowMenu"> <span>Products</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
-                    <mat-menu #belowMenu="matMenu" yPosition="below">
-                        <button mat-menu-item>Item 1</button>
-                        <button mat-menu-item>Item 2</button>
-                        <button mat-menu-item>Item 1</button>
-                        <button mat-menu-item>Item 2</button>
-                         </mat-menu>
-                
+                    <button mat-button [matMenuTriggerFor]="productMenu"> <span>Products</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
+                    <mat-menu #productMenu="matMenu" yPosition="below">
+                        <div class="products__submenu" fxLayout="row-wrap">
+                            <div class="products__block1" fxFlex="25%">
+                                <h2>Electronic Health record</h2>
+                                 <ul>
+                                    <li>ePrescible</li>
+                                    <li>Voice Dictation</li>
+                                    <li>Notes Builder</li>
+                                    <li>Labs</li>
+                                  
+                                    
+                                </ul>
+                                </div>
+                                <div class="products__block2" fxFlex="25%">
+                                    <h2>Practice Managment</h2>
+                                     <ul>
+                                        <li>Appointment Scheduler</li>
+                                        <li>Claims Center</li>
+                                        <li>Collections Center</li>
+                                        <li>Reporting</li>
+                                      
+                                    </ul>
+                                    </div>
+                                    <div class="products__block3" fxFlex="25%">
+                                        <h2>Patient Portal</h2>
+                                         <ul>
+                                            <li>Intake Forms</li>
+                                            <li>Appointment Reminders</li>
+                                            <li>Pay Bills Online</li>
+                                            <li>Rx Refill Requests</li>
+                                            
+                                        </ul>
+                                        </div>
+                            </div>
+                                    </mat-menu>
                 </li>
                 <li>
-                    <button mat-button [matMenuTriggerFor]="belowMenu"> <span>Services</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
-                    <mat-menu #belowMenu="matMenu" yPosition="below">
-                        <button mat-menu-item>Item 1</button>
-                        <button mat-menu-item>Item 2</button>
-                        <button mat-menu-item>Item 1</button>
-                        <button mat-menu-item>Item 2</button>
+                    <button mat-button [matMenuTriggerFor]="serviceMenu"> <span>Services</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
+                    <mat-menu #serviceMenu="matMenu" yPosition="below">
+                        <div class="services__submenu" fxLayout="row-wrap">
+                            <div class="services__block1" fxFlex="25%">
+                                <h2>Services we offer</h2>
+                                 <ul>
+                                    <li>Revenue Cycle Management</li>
+                                    <li>Managed IT</li>
+                                    <li>MIPS Consulting</li>
+                                  
+                                    
+                                </ul>
+                                </div>
+                                <div class="services__block2" fxFlex="25%">
+                                    <h2>Resources</h2>
+                                     <ul>
+                                        <li>Case Studies</li>
+                                        <li>Data Science</li>
+                                        <li>Machine Learning</li>
+                                        <li>NLP</li>
+                                        <li>IT Services</li>
+                                        <li>Webinars</li>
+                                    </ul>
+                                    </div>
+                                    <div class="services__block3" fxFlex="25%">
+                                        <h2>Trainings & certifications</h2>
+                                         <ul>
+                                            <li>Appointment Scheduler</li>
+                                            <li>Claims Center</li>
+                                            <li>Collections Center</li>
+                                            <li>Reporting</li>
+                                            
+                                        </ul>
+                                        </div>
+                                        <div class="services__block4" fxFlex="25%">
+                                            <h2>Support</h2>
+                                             <ul>
+                                                <li>Open Service Ticket</li>
+                                                <li>EHR Support</li>
+                                                <li>Get Support</li>
+                                            </ul>
+                                            </div>
+                        </div>
                          </mat-menu>
                  </li>
                  <li>
-                    <button mat-button [matMenuTriggerFor]="belowMenu"> <span>AboutUs</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
-                        <mat-menu #belowMenu="matMenu" yPosition="below">
-                            <button mat-menu-item>Item 1</button>
-                            <button mat-menu-item>Item 2</button>
-                            <button mat-menu-item>Item 1</button>
-                            <button mat-menu-item>Item 2</button>
+                    <button mat-button [matMenuTriggerFor]="aboutMenu"> <span>AboutUs</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
+                        <mat-menu #aboutMenu="matMenu" yPosition="below">
+                            <div class="about__submenu" fxLayout="row-wrap">
+                                <div class="about__block1" fxFlex="30%">
+                                   <img src="assets\images\about-submenu.jpg" alt="aboutsubmenu" width="375px" height="170px">
+                                    </div>
+                                <div class="about__block2" fxFlex="25%">
+                                    <h2>About Us</h2>
+                                     <ul>
+                                        <li>Company</li>
+                                        <li>Contact us</li>
+                                        <li>Investors</li>
+                                        <li>Awards</li>
+                                        <li>Events</li>
+                                        
+                                    </ul>
+                                    </div>
+                                    <div class="about__block3" fxFlex="25%">
+                                        <h2>Careers</h2>
+                                         <ul>
+                                            <li>Current Openings</li>
+                                            <li>Culture & Benefits</li>
+                                            
+                                          
+                                        </ul>
+                                        </div>
+                            </div>
                              </mat-menu>
                  </li>
          
