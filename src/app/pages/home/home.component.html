@@ -130,6 +130,19 @@
     </div>
 
 </div>  
+
+<!-- Brands logo carosol -->
+<div class="brands__main">
+  <div class="brands__inner">
+            <ngx-slick-carousel class="carousel" 
+            #slickModal="slick-carousel" 
+            [config]="slideConfig" >
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <img src="{{ slide.img }}" alt="" width="150px" height="120px" >
+        </div>
+        </ngx-slick-carousel>
+  </div>
+</div>
            
 
 

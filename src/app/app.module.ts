@@ -13,7 +13,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material/card';
-
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { CultureComponent } from './pages/culturebenefits/culture/culture.component';
 
 
 
@@ -27,6 +28,7 @@ import {MatCardModule} from '@angular/material/card';
     FooterComponent,
     HomeComponent,
     ContactComponent,
+    CultureComponent,
     
   ],
   imports: [
@@ -37,10 +39,10 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatMenuModule,
     FlexLayoutModule,
-    MatCardModule
-    
-    
-  ],
+    MatCardModule,
+    SlickCarouselModule
+ 
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
