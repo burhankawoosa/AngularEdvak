@@ -55,6 +55,10 @@ border-radius: 5px 0px 0px 5px;
     align-items: center;
     align-items: center;
 }
+.container_insideicons span{
+  color:rgb(41, 41, 41);
+  font: 600 15px/22px "EdOne","EdCL",Helvetica,Arial,sans-serif;
+}
 
   ::ng-deep.mat-menu-panel {
     max-width: none !important;

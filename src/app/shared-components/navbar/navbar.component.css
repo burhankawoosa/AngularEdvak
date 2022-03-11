@@ -26,6 +26,10 @@ padding: 1.5rem;
 font-size: 1.5rem;
 color: white;
 }
+.brand__name a{
+    all:unset;
+    cursor: pointer;
+}
 .example-spacer {
     flex: 1 1 auto;
   }
@@ -39,15 +43,23 @@ color: white;
 
 .menu ul, li{
     display: flex;
+    color:#11809F;
     align-items: center;
     text-align: center;
     align-content: center;
     vertical-align: middle;
    margin-left: 2rem;
    margin-right: 1rem;
-   font-size: 1.125rem;
+   
    
 
+}
+.menu mat-icon{
+    color: black;
+}
+:host ::ng-deep.menu .mat-button-wrapper{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .innerdiv__left{
     display: flex;
