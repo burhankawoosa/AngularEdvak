@@ -4,8 +4,11 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    font: 400 14px/20px "EdOne","EdCL",Helvetica,Arial,sans-serif;
+    font: 400 16px/22px "EdOne","EdCL",Helvetica,Arial,sans-serif;
     text-decoration: none;
+}
+.mat-h1, .mat-headline, .mat-typography h1{
+    font: 400 32px/40px "EdOne","EdCL",Helvetica,Arial,sans-serif;
 }
 body { margin: 0; }
 
@@ -27,3 +30,4 @@ body { margin: 0; }
     font-weight: normal;
     font-style: normal;
 }
+

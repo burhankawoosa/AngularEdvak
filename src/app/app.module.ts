@@ -14,7 +14,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatCardModule} from '@angular/material/card';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
-import { CultureComponent } from './pages/culturebenefits/culture/culture.component';
+import { CultureComponent } from './pages/culturebenefits/culture.component';
 
 
 
