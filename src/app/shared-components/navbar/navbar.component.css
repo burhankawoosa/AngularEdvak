@@ -7,7 +7,7 @@
 }
 .innerdiv__right{
     display: flex;
-    padding: 0.5rem;
+    padding: 0.8rem;
 }
 .innerdiv__right button{
     background-color: var(--primary-color);
@@ -38,21 +38,22 @@ color: white;
     align-items: center;
     text-align: center;
     align-content: center;
-    
+   
   }
 
 .menu ul, li{
     display: flex;
-    color:#11809F;
+    
     align-items: center;
     text-align: center;
     align-content: center;
     vertical-align: middle;
    margin-left: 2rem;
    margin-right: 1rem;
-   
-   
-
+}
+.menu span{
+    font: 500 18px/21px "EdOne","EdCL",Helvetica,Arial,sans-serif;
+    color:#11809F;
 }
 .menu mat-icon{
     color: black;
@@ -149,6 +150,7 @@ color: white;
      padding-left:3%;
 
 }
+
 
     
 :host ::ng-deep .mat-button-wrapper{

@@ -85,7 +85,8 @@ border-radius: 5px 0px 0px 5px;
   margin-bottom: 14px;
 }
 .mat-card-content h3{
-  color: #0068B5;
+  font: 500 20px/21px "EdOne","EdCL",Helvetica,Arial,sans-serif;
+    color: #11809F;
 }
 /* Brands section */
 .slick-slider {
@@ -96,15 +97,18 @@ border-radius: 5px 0px 0px 5px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-/* ::ng-deep.mat-card-image:hover{
-  position: relative !important;
-  cursor: pointer;
-  width: 100%;
-  vertical-align: middle;
-  transform: scale(1.5);
+.main-card{
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.main-card img{
   transition: transform .8s cubic-bezier(.25, 0, .2, 1);
-} */
+}
+.main-card:hover img{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+   
 
 /* Media Queries will be here after */
 
