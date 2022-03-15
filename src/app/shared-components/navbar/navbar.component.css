@@ -41,7 +41,7 @@ color: white;
    
   }
 
-.menu ul, li{
+ .menu ul, li{
     display: flex;
     
     align-items: center;
@@ -50,7 +50,7 @@ color: white;
     vertical-align: middle;
    margin-left: 2rem;
    margin-right: 1rem;
-}
+} 
 .menu span{
     font: 500 18px/21px "EdOne","EdCL",Helvetica,Arial,sans-serif;
     color:#11809F;
@@ -149,6 +149,13 @@ color: white;
 .about__block3{
      padding-left:3%;
 
+}
+.about__submenu a{
+    all:unset;
+    cursor: pointer;
+}
+.about__submenu a:hover{
+   color:#11809F;
 }
 
 

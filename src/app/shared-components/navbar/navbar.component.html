@@ -4,13 +4,13 @@
             <p><a routerLink="">EDVAK</a></p>
         </div>
         
-        <div class="menu">
+        <div class="menu" fxHide.xs>
             <ul>
                 <li>
                     <button mat-button [matMenuTriggerFor]="productMenu"> <span>Products</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
                     <mat-menu #productMenu="matMenu" yPosition="below">
-                        <div class="products__submenu" fxLayout="row-wrap">
-                            <div class="products__block1" fxFlex="25%">
+                        <div class="products__submenu" fxLayout="row wrap">
+                            <div class="products__block1" fxFlex="25%" fxFlex.xs="100%">
                                 <h2>Electronic Health record</h2>
                                  <ul>
                                     <li>ePrescible</li>
@@ -21,7 +21,7 @@
                                     
                                 </ul>
                                 </div>
-                                <div class="products__block2" fxFlex="25%">
+                                <div class="products__block2" fxFlex="25%" fxFlex.xs="100%">
                                     <h2>Practice Managment</h2>
                                      <ul>
                                         <li>Appointment Scheduler</li>
@@ -31,7 +31,7 @@
                                       
                                     </ul>
                                     </div>
-                                    <div class="products__block3" fxFlex="25%">
+                                    <div class="products__block3" fxFlex="25%" fxFlex.xs="100%">
                                         <h2>Patient Portal</h2>
                                          <ul>
                                             <li>Intake Forms</li>
@@ -47,8 +47,8 @@
                 <li>
                     <button mat-button [matMenuTriggerFor]="serviceMenu"> <span>Services</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
                     <mat-menu #serviceMenu="matMenu" yPosition="below">
-                        <div class="services__submenu" fxLayout="row-wrap">
-                            <div class="services__block1" fxFlex="25%">
+                        <div class="services__submenu" fxLayout="row wrap">
+                            <div class="services__block1" fxFlex="25%" fxFlex.xs="100%">
                                 <h2>Services we offer</h2>
                                  <ul>
                                     <li>Revenue Cycle Management</li>
@@ -58,7 +58,7 @@
                                     
                                 </ul>
                                 </div>
-                                <div class="services__block2" fxFlex="25%">
+                                <div class="services__block2" fxFlex="25%" fxFlex.xs="100%">
                                     <h2>Resources</h2>
                                      <ul>
                                         <li>Case Studies</li>
@@ -69,7 +69,7 @@
                                         <li>Webinars</li>
                                     </ul>
                                     </div>
-                                    <div class="services__block3" fxFlex="25%">
+                                    <div class="services__block3" fxFlex="25%" fxFlex.xs="100%">
                                         <h2>Trainings & certifications</h2>
                                          <ul>
                                             <li>Appointment Scheduler</li>
@@ -79,7 +79,7 @@
                                             
                                         </ul>
                                         </div>
-                                        <div class="services__block4" fxFlex="25%">
+                                        <div class="services__block4" fxFlex="25%" fxFlex.xs="100%">
                                             <h2>Support</h2>
                                              <ul>
                                                 <li>Open Service Ticket</li>
@@ -93,26 +93,26 @@
                  <li>
                     <button mat-button [matMenuTriggerFor]="aboutMenu"> <span>AboutUs</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
                         <mat-menu #aboutMenu="matMenu" yPosition="below">
-                            <div class="about__submenu" fxLayout="row-wrap">
-                                <div class="about__block1" fxFlex="30%">
+                            <div class="about__submenu" fxLayout="row wrap">
+                                <div class="about__block1" fxFlex="30%" fxFlex.xs="100%">
                                    <img src="assets\images\about-submenu.jpg" alt="aboutsubmenu" width="375px" height="170px">
                                     </div>
-                                <div class="about__block2" fxFlex="25%">
+                                <div class="about__block2" fxFlex="25%" fxFlex.xs="100%">
                                     <h2>About Us</h2>
                                      <ul>
                                         <li>Company</li>
-                                        <li>Contact us</li>
+                                        <li><a routerLink="contact">Contact us</a></li>
                                         <li>Investors</li>
                                         <li>Awards</li>
                                         <li>Events</li>
                                         
                                     </ul>
                                     </div>
-                                    <div class="about__block3" fxFlex="25%">
+                                    <div class="about__block3" fxFlex="25%" fxFlex.xs="100%">
                                         <h2>Careers</h2>
                                          <ul>
                                             <li>Current Openings</li>
-                                            <li>Culture & Benefits</li>
+                                            <li><a routerLink="culture">Culture & Benefits</a></li>
                                             
                                           
                                         </ul>

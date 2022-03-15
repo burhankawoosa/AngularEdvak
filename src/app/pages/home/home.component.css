@@ -81,8 +81,9 @@ border-radius: 5px 0px 0px 5px;
     padding-right: 60px;
 }
 .mat-card{
-  background-color: #f3f3f3;
+  background-color: #f9f9f9;
   margin-bottom: 14px;
+  box-shadow: inset 0px 0px 6px 0px rgb(0 0 0 / 25%);
 }
 .mat-card-content h3{
   font: 500 20px/21px "EdOne","EdCL",Helvetica,Arial,sans-serif;
@@ -113,9 +114,26 @@ border-radius: 5px 0px 0px 5px;
 /* Media Queries will be here after */
 
   @media (max-width: 800px) {
+    .maincard__container{
+      padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
     .inner__banner {
       flex-direction: column-reverse;
+      padding-top: 0px;
 
     }
-   
+    .banner__text{
+      margin-top: 0px ;
+      width: unset ;
+    }
+    .inner__banner img{
+      width: 100%;
+      height: 280px;
+      top:0px !important;
+    }
+   .brands__main{
+     padding-left: 94px;
+   }
 }
