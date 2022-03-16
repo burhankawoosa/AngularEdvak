@@ -16,6 +16,7 @@ import {MatCardModule} from '@angular/material/card';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { CultureComponent } from './pages/culturebenefits/culture.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 
@@ -42,7 +43,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     FlexLayoutModule,
     MatCardModule,
     SlickCarouselModule,
-    MatTabsModule
+    MatTabsModule,
+    MatSidenavModule
  
     ],
   providers: [],

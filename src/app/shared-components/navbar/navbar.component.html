@@ -3,7 +3,11 @@
         <div class="brand__name">
             <p><a routerLink="">EDVAK</a></p>
         </div>
-        
+        <div fxHide.gt-xs>
+            <button mat-icon-button (click)="onToggleSidenav()">
+                <mat-icon>menu</mat-icon>
+            </button>
+        </div>
         <div class="menu" fxHide.xs>
             <ul>
                 <li>

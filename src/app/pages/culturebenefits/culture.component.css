@@ -68,9 +68,16 @@
     height: 350px;
     margin-top: 18px;
 }
-.tbbox__left{
+.tbbox__left1{
     min-width: 50%;
     background-image: url(../../../assets/images/bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.tbbox__left2{
+    min-width: 50%;
+    background-image: url(../../../assets/images/pj.png);
     background-size: cover;
     background-repeat: no-repeat;
   
