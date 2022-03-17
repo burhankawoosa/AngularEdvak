@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
     { img: 'assets/brands/4.svg' },
     { img: 'assets/brands/5.svg' },
     { img: 'assets/brands/6.svg' },
-    { img: 'assets/brands/7.svg' },
+    { img: 'assets/brands/ummc.svg' },
     { img: 'assets/brands/8.svg' },
     { img: 'assets/brands/9.svg' },
     { img: 'assets/brands/10.svg' },

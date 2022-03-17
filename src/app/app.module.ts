@@ -17,6 +17,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { CultureComponent } from './pages/culturebenefits/culture.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { MobmenuComponent } from './shared-components/mobmenu/mobmenu.component';
 
 
 
@@ -31,6 +32,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     HomeComponent,
     ContactComponent,
     CultureComponent,
+    MobmenuComponent,
     
   ],
   imports: [
