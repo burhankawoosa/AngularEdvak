@@ -66,6 +66,7 @@ color: white;
     display: flex;
     text-align: center;
     align-content: center;
+    align-items: center;
     
 }
 
@@ -172,4 +173,8 @@ color: white;
 :host ::ng-deep .mat-menu-panel{
 min-width: 100vw !important;
 border-radius: 0;
+}
+.hamburger mat-icon{
+    font-size: 32px;
+    padding-left: 25px;
 }
