@@ -52,6 +52,7 @@ margin-bottom: 0px;
     background-image: url(../../../assets/images/contactus.jpg);
     background-size: cover;
     min-width: 50%;
+    object-fit: contain;
     background-repeat: no-repeat;
 
 

@@ -18,6 +18,11 @@ import { CultureComponent } from './pages/culturebenefits/culture.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MobmenuComponent } from './shared-components/mobmenu/mobmenu.component';
+import { CareerComponent } from './pages/career/career.component';
+import { FullstackComponent } from './pages/career/fullstack/fullstack.component';
+import { MeanstackComponent } from './pages/career/meanstack/meanstack.component';
+import { SoftengComponent } from './pages/career/softeng/softeng.component';
+import { MedannComponent } from './pages/career/medann/medann.component';
 
 
 
@@ -33,6 +38,11 @@ import { MobmenuComponent } from './shared-components/mobmenu/mobmenu.component'
     ContactComponent,
     CultureComponent,
     MobmenuComponent,
+    CareerComponent,
+    FullstackComponent,
+    MeanstackComponent,
+    SoftengComponent,
+    MedannComponent,
     
   ],
   imports: [

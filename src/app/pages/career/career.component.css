@@ -1,0 +1,49 @@
+.banner{
+    height:30rem ;
+    background-image: url(../../../assets/career/banner.jpg);
+    background-size: cover;
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.job__desc{
+    
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 8rem;
+}
+.maincard__container h2{
+    font: 600 32px/25px "EdOne","EdCL",Helvetica,Arial,sans-serif; 
+    color: #11809F;
+    margin-bottom: 44px;
+}
+.maincard__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 4%;
+    padding-bottom: 2%;
+    height: 22rem;
+}
+.maincard__container mat-card{
+    height: 60px;
+    width: 350px;
+    margin-bottom: 1rem;
+    box-shadow: inset 0px 0px 7px 1px rgb(0 0 0 / 25%);
+    border-radius:5px ;
+}
+
+.maincard__container mat-card:hover{
+    transition: all .2s;
+    cursor: pointer; 
+    transform: translateY(-5px);
+}
+
+.mat-card-subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 16px;
+    margin-top: 1px !important;
+}
