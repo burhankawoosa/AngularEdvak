@@ -1,10 +1,27 @@
 .banner{
-    height:30rem ;
-    background-image: url(../../../assets/career/banner.jpg);
+    padding-top:8rem;
+    padding-left: 10rem;
+    padding-bottom: 8rem;
+    background-size: cover !important;
+    background: linear-gradient(89deg, #000000, transparent), url(../../../assets/career/ban.jpg);
+    overflow: hidden;
     background-size: cover;
     object-fit: contain;
     background-position: center center;
     background-repeat: no-repeat;
+}
+.banner h1{
+    font: 500 55px/25px "EdOne","EdCL",Helvetica,Arial,sans-serif; 
+    color: white;
+    margin-bottom: 2rem;
+}
+.banner h2{
+    font: 500 20px/25px "EdOne","EdCL",Helvetica,Arial,sans-serif; 
+    color: white
+}
+.banner h3{
+    font: 200 15px/25px "EdOne","EdCL",Helvetica,Arial,sans-serif; 
+    color: rgb(233, 233, 233);
 }
 .job__desc{
     
@@ -23,7 +40,7 @@
     align-items: center;
     margin: auto;
     margin-top: 4%;
-    padding-bottom: 2%;
+    padding-bottom: 6%;
     height: 22rem;
 }
 .maincard__container mat-card{
@@ -47,3 +64,52 @@
     font-size: 16px;
     margin-top: 1px !important;
 }
+.bottomcard__container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.imgcard{
+    background: linear-gradient(180deg, #000000, transparent), url(../../../assets/career/grad.webp);
+    background-size:cover;
+    object-fit: contain;
+    width:380px ;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcard h2{
+    color: white;
+}
+.imgcard1{
+    background: linear-gradient(29deg, #000000, transparent), url(../../../assets/career/dev.jpg);
+    background-size:cover;
+    object-fit: contain;
+    width:380px ;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcard1 h2{
+color: white;
+}
+.imgcard2{
+    background: linear-gradient(321deg, #000000, transparent), url(../../../assets/career/elite.jpg);
+    background-size:cover;
+    object-fit: contain;
+    width:380px ;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcard2 h2{
+    color: white;
+    }

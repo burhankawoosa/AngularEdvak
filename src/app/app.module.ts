@@ -9,6 +9,7 @@ import { FooterComponent } from './shared-components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -50,6 +51,7 @@ import { MedannComponent } from './pages/career/medann/medann.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatInputModule,
     MatIconModule,
     MatMenuModule,
     FlexLayoutModule,

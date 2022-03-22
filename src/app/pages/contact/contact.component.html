@@ -20,7 +20,56 @@
         
     </div>
 
-
+    <!-- Form and cards -->
+    <div class="formcards__outer">
+        <div fxLayout="row wrap" fxLayoutGap="30px grid"  >
+            <div fxFlex="40%" fxFlex.xs="100%">
+          <mat-card class="main-card" >
+                
+                <mat-card-title > <img src="assets/contact/sales.svg" alt="" width="60px" height="60px"> &nbsp; Sales Enquiry</mat-card-title>
+                <mat-card-subtitle>For queries related to sales you can connect with our chat support system</mat-card-subtitle>
+                <button mat-raised-button color="primary" class="btn1">Chat Now</button>
+              </mat-card> 
+              <mat-card class="main-card" >
+                <mat-card-title ><img src="assets/contact/techsup.svg" alt="" width="60px" height="60px"> &nbsp;Technical Support</mat-card-title>
+                <mat-card-subtitle>If you need Product Technical Support you can raise a ticket to get quick support</mat-card-subtitle>
+                <button mat-raised-button color="primary">Send Ticket</button>
+              </mat-card> 
+              <mat-card class="main-card" >
+                <mat-card-title ><img src="assets/contact/product.svg" alt="" width="60px" height="60px"> &nbsp;Request a Demo</mat-card-title>
+                <mat-card-subtitle>If you are interested in our product and want to try them out for trail period, you can request demo </mat-card-subtitle>
+                <button mat-raised-button color="primary">Request Now</button>
+              </mat-card> 
+            </div>
+              <div fxFlex="60%" fxFlex.xs="100%">
+                  
+              <mat-card class="main-cardform" >
+                <h1>Reach Us with Info</h1>
+                <form class="example-form" fxLayout="column">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                      <mat-label>Name</mat-label>
+                      <input matInput placeholder="" value="">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Email</mat-label>
+                        <input matInput placeholder="" value="">
+                      </mat-form-field>
+                      <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Subject</mat-label>
+                        <input matInput placeholder="" value="">
+                      </mat-form-field>
+                  
+                    <mat-form-field class="example-full-width" appearance="fill">
+                      <mat-label>Your Message</mat-label>
+                      <textarea matInput placeholder=""></textarea>
+                    </mat-form-field>
+                    <button mat-raised-button color="primary">Send Message</button>
+                  </form>
+              </mat-card> 
+    </div>
+    </div>
+</div>
+<!-- map and contact details -->
     <div class="main__inner" fxLayout="row wrap">
         <div class="inner__left" fxFlex="70%">
             <img src="assets\images\temp.png" alt="" width="730px" height="400px">
@@ -42,4 +91,3 @@
                 </div>
         </div>
     </div>
-</div>
