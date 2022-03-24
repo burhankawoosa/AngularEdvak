@@ -45,25 +45,25 @@
                   
               <mat-card class="main-cardform" >
                 <h1>Reach Us with Info</h1>
-                <form class="example-form" fxLayout="column">
+                <form class="example-form" fxLayout="column" #mailform="ngForm" (ngSubmit)="onSubmit(mailform.value)">
                     <mat-form-field class="example-full-width" appearance="fill">
                       <mat-label>Name</mat-label>
-                      <input matInput placeholder="" value="">
+                      <input matInput placeholder="" value="" name="name" ngModel>
                     </mat-form-field>
                     <mat-form-field class="example-full-width" appearance="fill">
                         <mat-label>Email</mat-label>
-                        <input matInput placeholder="" value="">
+                        <input matInput placeholder="" value="" name="email" ngModel>
                       </mat-form-field>
                       <mat-form-field class="example-full-width" appearance="fill">
                         <mat-label>Subject</mat-label>
-                        <input matInput placeholder="" value="">
+                        <input matInput placeholder="" value="" name="subject" ngModel>
                       </mat-form-field>
                   
                     <mat-form-field class="example-full-width" appearance="fill">
                       <mat-label>Your Message</mat-label>
-                      <textarea matInput placeholder=""></textarea>
+                      <textarea matInput placeholder="" name="message" ngModel></textarea>
                     </mat-form-field>
-                    <button mat-raised-button color="primary">Send Message</button>
+                    <button mat-raised-button color="primary" type="submit">Send Message</button>
                   </form>
               </mat-card> 
     </div>

@@ -1,1 +1,97 @@
-<p>mobmenu works!</p>
+<mat-accordion>
+            <mat-expansion-panel (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+            <mat-panel-title>
+            Products
+            </mat-panel-title>
+            </mat-expansion-panel-header>
+            <h2>Electronic Health record</h2>
+            <ul>
+               <li>ePrescible</li>
+               <li>Voice Dictation</li>
+               <li>Notes Builder</li>
+               <li>Labs</li>
+            </ul>
+            <h2>Practice Managment</h2>
+            <ul>
+               <li>Appointment Scheduler</li>
+               <li>Claims Center</li>
+               <li>Collections Center</li>
+               <li>Reporting</li>
+             
+           </ul>
+           <h2>Patient Portal</h2>
+           <ul>
+              <li>Intake Forms</li>
+              <li>Appointment Reminders</li>
+              <li>Pay Bills Online</li>
+              <li>Rx Refill Requests</li>
+              
+          </ul>
+            </mat-expansion-panel>
+
+
+            <mat-expansion-panel (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+            <mat-panel-title>
+            Services
+            </mat-panel-title>
+            </mat-expansion-panel-header>
+            <h2>Services we offer</h2>
+            <ul>
+               <li>Revenue Cycle Management</li>
+               <li>Managed IT</li>
+               <li>MIPS Consulting</li>
+              </ul>
+              <h2>Resources</h2>
+              <ul>
+                 <li>Case Studies</li>
+                 <li>Data Science</li>
+                 <li>Machine Learning</li>
+                 <li>NLP</li>
+                 <li>IT Services</li>
+                 <li>Webinars</li>
+             </ul>
+             <h2>Trainings & certifications</h2>
+             <ul>
+                <li>Appointment Scheduler</li>
+                <li>Claims Center</li>
+                <li>Collections Center</li>
+                <li>Reporting</li>
+                
+            </ul>   
+            <h2>Support</h2>
+            <ul>
+               <li>Open Service Ticket</li>
+               <li>EHR Support</li>
+               <li>Get Support</li>
+           </ul>                        
+            </mat-expansion-panel>
+
+            <mat-expansion-panel (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+            <mat-panel-title>
+            AboutUs
+            </mat-panel-title>
+            </mat-expansion-panel-header>
+            <h2>About Us</h2>
+            <ul>
+               <li>Company</li>
+               <li><a routerLink="contact">Contact us</a></li>
+               <li>Investors</li>
+               <li>Awards</li>
+               <li>Events</li>
+               </ul>
+               <h2>Careers</h2>
+               <ul>
+                  <li><a routerLink="career">Current Openings</a></li>
+                  <li><a routerLink="culture">Culture & Benefits</a></li>
+                  
+                
+              </ul>
+            </mat-expansion-panel>
+
+</mat-accordion>

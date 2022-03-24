@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -24,7 +23,9 @@ import { FullstackComponent } from './pages/career/fullstack/fullstack.component
 import { MeanstackComponent } from './pages/career/meanstack/meanstack.component';
 import { SoftengComponent } from './pages/career/softeng/softeng.component';
 import { MedannComponent } from './pages/career/medann/medann.component';
-
+import {MatExpansionModule} from '@angular/material/expansion';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -58,7 +59,10 @@ import { MedannComponent } from './pages/career/medann/medann.component';
     MatCardModule,
     SlickCarouselModule,
     MatTabsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatExpansionModule,
+    FormsModule,
+    HttpClientModule
  
     ],
   providers: [],

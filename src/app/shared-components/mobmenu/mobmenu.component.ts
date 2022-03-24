@@ -7,7 +7,7 @@ import { Component, OnInit,Output,EventEmitter } from '@angular/core';
 })
 export class MobmenuComponent implements OnInit {
   @Output() public sidenavclose=new EventEmitter();
-
+  panelOpenState = false;
   constructor() { }
 
   ngOnInit(): void {

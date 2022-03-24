@@ -1,0 +1,14 @@
+
+mat-expansion-panel{
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 1px;
+}
+a{
+    all:unset;
+    cursor: pointer;
+}
+a:hover{
+    color:#11809F;
+}
