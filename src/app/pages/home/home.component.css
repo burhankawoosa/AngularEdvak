@@ -21,6 +21,9 @@
 border-radius: 5px 0px 0px 5px;
    
 }
+.banner__text p{
+  line-height: 27px;
+}
 
 .inner__banner{
     display: flex;
@@ -88,6 +91,10 @@ border-radius: 5px 0px 0px 5px;
 .mat-card-content h3{
   font: 500 20px/21px "EdOne","EdCL",Helvetica,Arial,sans-serif;
     color: #11809F;
+}
+.mat-card-content p{
+  text-align: justify;
+  line-height: 24px;
 }
 /* Brands section */
 .slick-slider {

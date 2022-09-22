@@ -26,8 +26,15 @@ import { MedannComponent } from './pages/career/medann/medann.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { EhrComponent } from './pages/EHR/ehr/ehr.component';
+import { TelehealthComponent } from './pages/telehealth/telehealth/telehealth.component';
+import { AboutComponent } from './pages/about/about/about.component';
+import { DarwinComponent } from './pages/darwin/darwin/darwin.component';
+import { RcmComponent } from './pages/RCM/rcm/rcm.component';
+import { PatientportalComponent } from './pages/patientportal/patientportal/patientportal.component';
+import { PracticemanagmentComponent } from './pages/practicemanagment/practicemanagment/practicemanagment.component';
 
-
+import { NgParticlesModule } from "ng-particles";
 
 
 
@@ -45,6 +52,14 @@ import { HttpClientModule } from '@angular/common/http';
     MeanstackComponent,
     SoftengComponent,
     MedannComponent,
+    EhrComponent,
+    TelehealthComponent,
+    AboutComponent,
+    DarwinComponent,
+    RcmComponent,
+    PatientportalComponent,
+    PracticemanagmentComponent,
+
     
   ],
   imports: [
@@ -62,7 +77,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatSidenavModule,
     MatExpansionModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgParticlesModule
  
     ],
   providers: [],

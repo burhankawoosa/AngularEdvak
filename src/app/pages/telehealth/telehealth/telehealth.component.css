@@ -1,0 +1,89 @@
+.banner{
+  
+    background-color: #000000;
+}
+.bnr_content{
+    padding: 6.5rem 3rem 3rem 2rem;
+    }
+    .bnr_content h1{
+    font: 55px "EdOne","EdCL",Helvetica,Arial,sans-serif; 
+    color: white;
+    }
+    .bnr_content p{
+        font: 16px "EdCL",Helvetica,Arial,sans-serif; 
+        word-spacing: 2px;
+        line-height: 30px;
+        color: rgb(214, 214, 214);
+        text-align: justify;
+        }
+.imgcontainer{
+    min-height: 20rem;
+    background-size: cover !important;
+    background:url(../../../../assets/images/telehealth1.jpg);
+    overflow: hidden;
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tagline{
+    background-color: #F5F5F5CC;
+    padding-top: 16px;
+   text-align: center;
+   border-style: solid;
+   border-width: 0px 0px 5px 0px;
+   border-color: #000000;
+ 
+ }
+
+.tagline h2{
+    font: 300 36px "EdCL",Helvetica,Arial,sans-serif;  
+    color: #000000;
+}
+.content{
+    padding: 2rem 7rem 2rem 7rem;
+}
+.content_img{
+    min-height: 20rem;
+    margin-top: 15px;
+    background-size: contain !important;
+    background:url(../../../../assets/images/telehealth2.png);
+    overflow: hidden;
+    object-fit: contain;
+    
+    background-repeat: no-repeat;
+}
+.contentdetails h3{
+    color: #224574;
+    font: 300 25px "EdCL",Helvetica,Arial,sans-serif;  
+}
+.contentdetails p{
+    font:  18px "EdCL",Helvetica,Arial,sans-serif;  
+    word-spacing: 2px;
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+    text-align: justify;
+}
+.list_content li{
+    list-style: disc !important;
+    font:  18px "EdCL",Helvetica,Arial,sans-serif;  
+    word-spacing: 2px;
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+    text-align: justify;
+}
+.list_content h3{
+    padding-top: 2rem;
+    color: #224574;
+    font: 300 25px "EdCL",Helvetica,Arial,sans-serif;   
+}
+@media (max-width: 600px) {
+    .content {
+   padding: 1rem 1rem 1rem 1rem ;
+
+}
+.list_content{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+ }

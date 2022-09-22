@@ -17,36 +17,36 @@
                             <div class="products__block1" fxFlex="25%" fxFlex.xs="100%">
                                 <h2>Electronic Health record</h2>
                                  <ul>
-                                    <li>ePrescible</li>
-                                    <li>Voice Dictation</li>
-                                    <li>Notes Builder</li>
-                                    <li>Labs</li>
+                                    <a routerLink="/ehr" fragment="eprescribe">  <li>ePrescible</li></a>
+                                    <a routerLink="/ehr" fragment="voice"> <li>Voice Dictation</li></a>
+                                    <a routerLink="/ehr" fragment="notes"> <li>Notes Builder</li></a>
+                                    <a routerLink="/ehr" fragment="labs"><li>Labs</li></a>
                                   </ul>
                                 </div>
                                 <div class="products__block2" fxFlex="25%" fxFlex.xs="100%">
                                     <h2>Practice Managment</h2>
                                      <ul>
-                                        <li>Appointment Scheduler</li>
-                                        <li>Claims Center</li>
-                                        <li>Collections Center</li>
-                                        <li>Reporting</li>
+                                        <a routerLink="/practicemanagment" fragment="appointment">  <li>Appointment Scheduler</li></a>
+                                        <a routerLink="/practicemanagment" fragment="claims"> <li>Claims Center</li></a>
+                                        <a routerLink="/practicemanagment" fragment="collection"> <li>Collections Center</li></a>
+                                        <a routerLink="/practicemanagment" fragment="reporting"> <li>Reporting</li></a>
                                       
                                     </ul>
                                     </div>
                                     <div class="products__block3" fxFlex="25%" fxFlex.xs="100%">
                                         <h2>Patient Portal</h2>
                                          <ul>
-                                            <li>Intake Forms</li>
-                                            <li>Appointment Reminders</li>
-                                            <li>Pay Bills Online</li>
-                                            <li>Rx Refill Requests</li>
+                                            <a routerLink="/patientportal" fragment="intake"> <li>Intake Forms</li></a>
+                                            <a routerLink="/patientportal" fragment="appointment">  <li>Appointment Reminders</li></a>
+                                            <a routerLink="/patientportal" fragment="bills"> <li>Pay Bills Online</li></a>
+                                            <a routerLink="/patientportal" fragment="rx"> <li>Rx Refill Requests</li></a>
                                             
                                         </ul>
                                         </div>
                             </div>
                                     </mat-menu>
                 </li>
-                <li>
+                <!-- <li>
                     <button mat-button [matMenuTriggerFor]="serviceMenu"> <span>Services</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
                     <mat-menu #serviceMenu="matMenu" yPosition="below">
                         <div class="services__submenu" fxLayout="row wrap">
@@ -89,7 +89,7 @@
                                             </div>
                         </div>
                          </mat-menu>
-                 </li>
+                 </li> -->
                  <li>
                     <button mat-button [matMenuTriggerFor]="aboutMenu"> <span>AboutUs</span><mat-icon style="font-size: 16px;  display:flex;align-items: center;"> add </mat-icon></button>
                         <mat-menu #aboutMenu="matMenu" yPosition="below">

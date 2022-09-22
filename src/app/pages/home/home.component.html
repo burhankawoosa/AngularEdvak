@@ -1,9 +1,10 @@
+
 <div class="banner">
     <div class="inner__banner">
         <div class="banner__text">
             <h1>Improving Healthcare with AI Technologies</h1>
-            <p>Bring the power of Data Science and Artificial Intelligence to every business. Best Solutions to existing systems powered by AI </p>
-            <button mat-raised-button  >Learn More</button>
+            <p>Bring the power of  Artificial Intelligence to Healthcare System. Complete AI powered EHR and Practice Management Solution </p>
+            <button mat-raised-button  (click)="products.scrollIntoView({ behavior: 'smooth', block: 'start' })" >Learn More</button>
             
         </div>
         <img src="assets\images\Edvakbanner.jpg"alt="Edvakbanner" width="790px" height="410px" style=" position: relative;
@@ -56,10 +57,12 @@
 
 
 <!-- main card section -->
-
-<div class="maincard__container">
+<ng-particles [id]="id" [options]="particlesOptions" [particlesInit]="particlesInit"
+              (particlesLoaded)="particlesLoaded($event)"></ng-particles>
+<div class="maincard__container" #products>
     <div fxLayout="row wrap" fxLayoutGap="7px grid" >
         <div fxFlex="27%" fxFlex.xs="100%">
+          <a routerLink="/practicemanagment">
         <mat-card class="main-card">
             <img mat-card-image src="assets\images\Practicemanagment.jpg" alt="Practicemanagment">
             <mat-card-content>
@@ -69,9 +72,10 @@
               </p>
             </mat-card-content>
           </mat-card>
-          <mat-card class="main-card">
-          
-            <img mat-card-image src="assets\images\revenue.jpg" alt="Practicemanagment">
+          </a>
+          <a routerLink="/rcm">
+          <mat-card class="main-card">          
+            <img mat-card-image src="assets\images\revenue.jpg" alt="rcm">
             <mat-card-content>
                 <h3>Revenue Cycle Management</h3>
               <p>
@@ -79,10 +83,11 @@
               </p>
             </mat-card-content>
           </mat-card>
-          
+          </a>
           </div>
 
           <div fxFlex="46%" fxFlex.xs="100%">
+            <a routerLink="/ehr">
             <mat-card class="main-card">
                 <img mat-card-image src="assets\images\ehr.jpg" alt="ehr">
                 <mat-card-content>
@@ -92,8 +97,10 @@
                   </p>
                 </mat-card-content>
               </mat-card>
+            </a>
+            <a routerLink="/telehealth">
               <mat-card class="main-card">
-                <img mat-card-image src="assets\images\telehealth.jpg" alt="ehr">
+                <img mat-card-image src="assets\images\telehealth.jpg" alt="telehealth">
                 <mat-card-content>
                     <h3>TeleHealth Technology</h3>
                   <p>
@@ -101,9 +108,11 @@
                   </p>
                 </mat-card-content>
               </mat-card>
+           </a>
               </div>
 
               <div fxFlex="27%" fxFlex.xs="100%" >
+                <a routerLink="/patientportal">
                 <mat-card class="main-card">
                     <img mat-card-image src="assets\images\Patientportal.jpg" alt="Patientportal">
                     <mat-card-content>
@@ -113,16 +122,19 @@
                       </p>
                     </mat-card-content>
                   </mat-card>
+                </a>
+                  <a routerLink="/darwin">
                   <mat-card class="main-card">
-                    <img mat-card-image src="assets\images\Itmanagnent.jpg" alt="Patientportal">
+                    <img mat-card-image src="assets\images\darwin.jpg" alt="darwin">
                     <mat-card-content>
-                        <h3>Managed IT Solutions</h3>
+                        <h3>Darwin – AI Voice Assistant</h3>
                       <p>
                         
-                        Edvak delivers discrete tasks such as IT infrastructures, even if you're a small clinic in need of limited IT setup and maintenance or a major health group wishing to totally outsource your IT operations. Edvak is devoted to  provide remote 24*7  help desk support for our customers.
+                        Our AI Virtual Assistant Darwin powered with the advanced algorithm of machine learning and natural language processing, help in transforming day-to-day operations for physicians, other clinical staff, and patients, and ensure compliance. Darwin can answer any question of clinician from the EHR data and create labs and medication orders with voice commands.
                       </p>
                     </mat-card-content>
                   </mat-card>
+                  </a>
              </div>
              
                  
@@ -131,7 +143,7 @@
 </div>  
 
 <!-- Brands logo carosol -->
-<div class="brands__main">
+<!-- <div class="brands__main">
   <div class="brands__inner">
             <ngx-slick-carousel class="carousel" 
             #slickModal="slick-carousel" 
@@ -141,7 +153,7 @@
         </div>
         </ngx-slick-carousel>
   </div>
-</div>
+</div> -->
            
 
 

@@ -48,6 +48,7 @@ margin-bottom: 0px;
     padding-right: 6rem;
 }
 .box__right{
+    min-height: 20rem;
     background-image: url(../../../assets/images/contactus.jpg);
     background-size: cover;
     min-width: 50%;
@@ -99,3 +100,18 @@ margin-bottom: 0px;
 textarea.mat-input-element {
     padding: 21px 0;
 }
+
+@media (max-width: 600px) {
+    .box__left,.formcards__outer,.main-cardform,.inner__left,.main__inner,.inner__right{
+   padding: 1rem 1rem 1rem 1rem ;
+
+}
+.inner__left img{
+    width: 424px;
+    height:280px;
+}
+.main-cardform button{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+ }

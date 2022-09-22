@@ -1,0 +1,83 @@
+.header{
+    min-height: 5rem;
+    background-color: #00263C;
+    padding: 8rem 1rem 6rem 7rem;
+}
+.header h1{
+    font: 40px "EdOne","EdCL",Helvetica,Arial,sans-serif; 
+color: white;
+
+}
+.content{
+    background:url(../../../../assets/images/pattern.webp);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -15rem;
+    padding: 0rem 2.5rem 0rem 2.5rem;
+}
+.content_img{
+    min-height: 20rem;
+    background-size: cover !important;
+    background:url(../../../../assets/images/about1.jpg);
+    overflow: hidden;
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.content_img1{
+
+    min-height: 20rem;
+    background-size: cover !important;
+    background:url(../../../../assets/images/about2.jpg);
+    overflow: hidden;
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.content_inner1{
+    padding-left: 3rem;
+    margin-top: 1rem;
+}
+.contentdetails1{
+    padding: 2rem;
+}
+.contentdetails1 h2{
+    font: 100 30px "EdCL",Helvetica,Arial,sans-serif;  
+    color: #000000;
+}
+.contentdetails1 p{
+    font:  17px "EdCL",Helvetica,Arial,sans-serif;  
+    word-spacing: 2px;
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+    text-align: justify;
+}
+.content_inner2{
+margin-top: 1rem;
+}
+.contentdetails2 h3{
+    font: 100 30px "EdCL",Helvetica,Arial,sans-serif;  
+    color: #000000;
+    padding-left: 3rem;
+}
+.contentdetails2 p{
+    font:  17px "EdCL",Helvetica,Arial,sans-serif;  
+    word-spacing: 2px;
+    line-height: 30px;
+    color: rgb(36, 36, 36);
+    text-align: justify;
+    padding: 1rem 8rem 1rem 3rem;
+}
+
+@media (max-width: 600px) {
+.content{
+   padding: 1rem 1rem 1rem 1rem ;
+   margin-top: 0rem;
+
+}
+.content_inner1{
+    padding-left: 0rem;
+
+}
+ }
